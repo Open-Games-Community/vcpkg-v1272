@@ -1,0 +1,7 @@
+-- Downloading https://github.com/boostorg/callable_traits/archive/boost-1.78.0.tar.gz -> boostorg-callable_traits-boost-1.78.0.tar.gz...
+-- Extracting source C:/vcpkg/downloads/boostorg-callable_traits-boost-1.78.0.tar.gz
+-- Using source at C:/vcpkg/buildtrees/boost-callable-traits/src/ost-1.78.0-263f30c58e.clean
+-- Copying headers
+-- Copying headers done
+-- Installing: C:/vcpkg/packages/boost-callable-traits_x86-windows/share/boost-callable-traits/usage
+-- Installing: C:/vcpkg/packages/boost-callable-traits_x86-windows/share/boost-callable-traits/copyright

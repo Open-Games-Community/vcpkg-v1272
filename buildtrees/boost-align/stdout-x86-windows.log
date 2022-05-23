@@ -1,0 +1,7 @@
+-- Downloading https://github.com/boostorg/align/archive/boost-1.78.0.tar.gz -> boostorg-align-boost-1.78.0.tar.gz...
+-- Extracting source C:/vcpkg/downloads/boostorg-align-boost-1.78.0.tar.gz
+-- Using source at C:/vcpkg/buildtrees/boost-align/src/ost-1.78.0-1e7ff4befc.clean
+-- Copying headers
+-- Copying headers done
+-- Installing: C:/vcpkg/packages/boost-align_x86-windows/share/boost-align/usage
+-- Installing: C:/vcpkg/packages/boost-align_x86-windows/share/boost-align/copyright

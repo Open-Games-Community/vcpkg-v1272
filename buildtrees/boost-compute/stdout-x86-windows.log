@@ -1,0 +1,7 @@
+-- Downloading https://github.com/boostorg/compute/archive/boost-1.78.0.tar.gz -> boostorg-compute-boost-1.78.0.tar.gz...
+-- Extracting source C:/vcpkg/downloads/boostorg-compute-boost-1.78.0.tar.gz
+-- Using source at C:/vcpkg/buildtrees/boost-compute/src/ost-1.78.0-057e75a9e3.clean
+-- Copying headers
+-- Copying headers done
+-- Installing: C:/vcpkg/packages/boost-compute_x86-windows/share/boost-compute/usage
+-- Installing: C:/vcpkg/packages/boost-compute_x86-windows/share/boost-compute/copyright

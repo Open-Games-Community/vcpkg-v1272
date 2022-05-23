@@ -1,0 +1,7 @@
+-- Downloading https://github.com/boostorg/assert/archive/boost-1.78.0.tar.gz -> boostorg-assert-boost-1.78.0.tar.gz...
+-- Extracting source C:/vcpkg/downloads/boostorg-assert-boost-1.78.0.tar.gz
+-- Using source at C:/vcpkg/buildtrees/boost-assert/src/ost-1.78.0-55a9987ea6.clean
+-- Copying headers
+-- Copying headers done
+-- Installing: C:/vcpkg/packages/boost-assert_x86-windows/share/boost-assert/usage
+-- Installing: C:/vcpkg/packages/boost-assert_x86-windows/share/boost-assert/copyright

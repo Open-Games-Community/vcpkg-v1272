@@ -1,0 +1,7 @@
+-- Downloading https://github.com/boostorg/accumulators/archive/boost-1.78.0.tar.gz -> boostorg-accumulators-boost-1.78.0.tar.gz...
+-- Extracting source C:/vcpkg/downloads/boostorg-accumulators-boost-1.78.0.tar.gz
+-- Using source at C:/vcpkg/buildtrees/boost-accumulators/src/ost-1.78.0-94171c4105.clean
+-- Copying headers
+-- Copying headers done
+-- Installing: C:/vcpkg/packages/boost-accumulators_x86-windows/share/boost-accumulators/usage
+-- Installing: C:/vcpkg/packages/boost-accumulators_x86-windows/share/boost-accumulators/copyright
