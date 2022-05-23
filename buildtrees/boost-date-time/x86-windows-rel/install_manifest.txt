@@ -1,0 +1,2 @@
+C:/vcpkg/packages/boost-date-time_x86-windows/lib/boost_date_time-vc143-mt-x32-1_78.lib
+C:/vcpkg/packages/boost-date-time_x86-windows/bin/boost_date_time-vc143-mt-x32-1_78.dll

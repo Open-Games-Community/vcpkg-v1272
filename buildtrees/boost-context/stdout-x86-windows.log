@@ -1,0 +1,25 @@
+-- Downloading https://github.com/boostorg/context/archive/boost-1.78.0.tar.gz -> boostorg-context-boost-1.78.0.tar.gz...
+-- Extracting source C:/vcpkg/downloads/boostorg-context-boost-1.78.0.tar.gz
+-- Using source at C:/vcpkg/buildtrees/boost-context/src/ost-1.78.0-71dc2519be.clean
+-- Including C:/vcpkg/buildtrees/boost-context/vcpkg-b2-options.cmake
+-- Found external ninja('1.10.2').
+-- Getting CMake variables for x86-windows
+-- Configuring x86-windows
+-- Building x86-windows-dbg
+-- Building x86-windows-rel
+CMake Warning at scripts/cmake/vcpkg_copy_pdbs.cmake:70 (message):
+  Could not find a matching pdb file for:
+
+      C:/vcpkg/packages/boost-context_x86-windows/bin/boost_context-vc143-mt-x32-1_78.dll
+      C:/vcpkg/packages/boost-context_x86-windows/debug/bin/boost_context-vc143-mt-gd-x32-1_78.dll
+
+Call Stack (most recent call first):
+  installed/x64-windows/share/boost-build/boost-modular-build.cmake:137 (vcpkg_copy_pdbs)
+  ports/boost-context/portfile.cmake:24 (boost_modular_build)
+  scripts/ports.cmake:145 (include)
+
+
+-- Copying headers
+-- Copying headers done
+-- Installing: C:/vcpkg/packages/boost-context_x86-windows/share/boost-context/usage
+-- Installing: C:/vcpkg/packages/boost-context_x86-windows/share/boost-context/copyright

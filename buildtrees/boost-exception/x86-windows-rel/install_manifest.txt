@@ -1,0 +1,1 @@
+C:/vcpkg/packages/boost-exception_x86-windows/lib/libboost_exception-vc143-mt-x32-1_78.lib

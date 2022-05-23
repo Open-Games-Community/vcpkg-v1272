@@ -1,0 +1,6 @@
+C:/vcpkg/buildtrees/boost-filesystem/x86-windows-rel/CMakeFiles/boost.dir
+C:/vcpkg/buildtrees/boost-filesystem/x86-windows-rel/CMakeFiles/edit_cache.dir
+C:/vcpkg/buildtrees/boost-filesystem/x86-windows-rel/CMakeFiles/rebuild_cache.dir
+C:/vcpkg/buildtrees/boost-filesystem/x86-windows-rel/CMakeFiles/list_install_components.dir
+C:/vcpkg/buildtrees/boost-filesystem/x86-windows-rel/CMakeFiles/install.dir
+C:/vcpkg/buildtrees/boost-filesystem/x86-windows-rel/CMakeFiles/install/local.dir

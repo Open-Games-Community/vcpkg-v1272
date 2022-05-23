@@ -1,0 +1,7 @@
+-- Downloading https://github.com/boostorg/fusion/archive/boost-1.78.0.tar.gz -> boostorg-fusion-boost-1.78.0.tar.gz...
+-- Extracting source C:/vcpkg/downloads/boostorg-fusion-boost-1.78.0.tar.gz
+-- Using source at C:/vcpkg/buildtrees/boost-fusion/src/ost-1.78.0-6a9600fa37.clean
+-- Copying headers
+-- Copying headers done
+-- Installing: C:/vcpkg/packages/boost-fusion_x86-windows/share/boost-fusion/usage
+-- Installing: C:/vcpkg/packages/boost-fusion_x86-windows/share/boost-fusion/copyright

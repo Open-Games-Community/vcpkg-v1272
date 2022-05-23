@@ -1,0 +1,12 @@
+-- Downloading https://github.com/boostorg/exception/archive/boost-1.78.0.tar.gz -> boostorg-exception-boost-1.78.0.tar.gz...
+-- Extracting source C:/vcpkg/downloads/boostorg-exception-boost-1.78.0.tar.gz
+-- Using source at C:/vcpkg/buildtrees/boost-exception/src/ost-1.78.0-8b4cb912e9.clean
+-- Found external ninja('1.10.2').
+-- Getting CMake variables for x86-windows
+-- Configuring x86-windows
+-- Building x86-windows-dbg
+-- Building x86-windows-rel
+-- Copying headers
+-- Copying headers done
+-- Installing: C:/vcpkg/packages/boost-exception_x86-windows/share/boost-exception/usage
+-- Installing: C:/vcpkg/packages/boost-exception_x86-windows/share/boost-exception/copyright

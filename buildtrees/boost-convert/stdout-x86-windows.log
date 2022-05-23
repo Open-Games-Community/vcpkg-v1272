@@ -1,0 +1,7 @@
+-- Downloading https://github.com/boostorg/convert/archive/boost-1.78.0.tar.gz -> boostorg-convert-boost-1.78.0.tar.gz...
+-- Extracting source C:/vcpkg/downloads/boostorg-convert-boost-1.78.0.tar.gz
+-- Using source at C:/vcpkg/buildtrees/boost-convert/src/ost-1.78.0-d97a6a915a.clean
+-- Copying headers
+-- Copying headers done
+-- Installing: C:/vcpkg/packages/boost-convert_x86-windows/share/boost-convert/usage
+-- Installing: C:/vcpkg/packages/boost-convert_x86-windows/share/boost-convert/copyright

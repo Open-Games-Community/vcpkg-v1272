@@ -1,0 +1,7 @@
+-- Downloading https://github.com/boostorg/describe/archive/boost-1.78.0.tar.gz -> boostorg-describe-boost-1.78.0.tar.gz...
+-- Extracting source C:/vcpkg/downloads/boostorg-describe-boost-1.78.0.tar.gz
+-- Using source at C:/vcpkg/buildtrees/boost-describe/src/ost-1.78.0-263f777d91.clean
+-- Copying headers
+-- Copying headers done
+-- Installing: C:/vcpkg/packages/boost-describe_x86-windows/share/boost-describe/usage
+-- Installing: C:/vcpkg/packages/boost-describe_x86-windows/share/boost-describe/copyright

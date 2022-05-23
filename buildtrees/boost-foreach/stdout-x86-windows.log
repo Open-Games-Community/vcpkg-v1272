@@ -1,0 +1,7 @@
+-- Downloading https://github.com/boostorg/foreach/archive/boost-1.78.0.tar.gz -> boostorg-foreach-boost-1.78.0.tar.gz...
+-- Extracting source C:/vcpkg/downloads/boostorg-foreach-boost-1.78.0.tar.gz
+-- Using source at C:/vcpkg/buildtrees/boost-foreach/src/ost-1.78.0-6402b874a8.clean
+-- Copying headers
+-- Copying headers done
+-- Installing: C:/vcpkg/packages/boost-foreach_x86-windows/share/boost-foreach/usage
+-- Installing: C:/vcpkg/packages/boost-foreach_x86-windows/share/boost-foreach/copyright

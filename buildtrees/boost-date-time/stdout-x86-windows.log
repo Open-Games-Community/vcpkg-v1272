@@ -1,0 +1,24 @@
+-- Downloading https://github.com/boostorg/date_time/archive/boost-1.78.0.tar.gz -> boostorg-date_time-boost-1.78.0.tar.gz...
+-- Extracting source C:/vcpkg/downloads/boostorg-date_time-boost-1.78.0.tar.gz
+-- Using source at C:/vcpkg/buildtrees/boost-date-time/src/ost-1.78.0-e57ec9b708.clean
+-- Found external ninja('1.10.2').
+-- Getting CMake variables for x86-windows
+-- Configuring x86-windows
+-- Building x86-windows-dbg
+-- Building x86-windows-rel
+CMake Warning at scripts/cmake/vcpkg_copy_pdbs.cmake:70 (message):
+  Could not find a matching pdb file for:
+
+      C:/vcpkg/packages/boost-date-time_x86-windows/bin/boost_date_time-vc143-mt-x32-1_78.dll
+      C:/vcpkg/packages/boost-date-time_x86-windows/debug/bin/boost_date_time-vc143-mt-gd-x32-1_78.dll
+
+Call Stack (most recent call first):
+  installed/x64-windows/share/boost-build/boost-modular-build.cmake:137 (vcpkg_copy_pdbs)
+  ports/boost-date-time/portfile.cmake:15 (boost_modular_build)
+  scripts/ports.cmake:145 (include)
+
+
+-- Copying headers
+-- Copying headers done
+-- Installing: C:/vcpkg/packages/boost-date-time_x86-windows/share/boost-date-time/usage
+-- Installing: C:/vcpkg/packages/boost-date-time_x86-windows/share/boost-date-time/copyright
