@@ -10,7 +10,7 @@ First of all, this vcpkg has Triplet x64 windows installed:
 ```boost-asio boost-filesystem boost-iostreams boost-lockfree boost-system boost-variant cryptopp curl jsoncpp libmariadb luajit mpir pugixml```
 
 Download it and place it anywhere.
-Extract the first rar on main directory to get vcpkg.exe.
+Extract all rars where you want to place VCPKG Folder.
 Open Command Prompt then open vcpkg folder, copy the URL of you vcpkg folder and insert this command ( cd, followed of the url of your vcpkg folder ):
 ```cd c:/vcpkg```
 
