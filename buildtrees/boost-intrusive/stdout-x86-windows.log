@@ -1,7 +1,0 @@
--- Downloading https://github.com/boostorg/intrusive/archive/boost-1.78.0.tar.gz -> boostorg-intrusive-boost-1.78.0.tar.gz...
--- Extracting source C:/vcpkg/downloads/boostorg-intrusive-boost-1.78.0.tar.gz
--- Using source at C:/vcpkg/buildtrees/boost-intrusive/src/ost-1.78.0-6adf001517.clean
--- Copying headers
--- Copying headers done
--- Installing: C:/vcpkg/packages/boost-intrusive_x86-windows/share/boost-intrusive/usage
--- Installing: C:/vcpkg/packages/boost-intrusive_x86-windows/share/boost-intrusive/copyright

@@ -1,7 +1,0 @@
--- Downloading https://github.com/boostorg/bimap/archive/boost-1.78.0.tar.gz -> boostorg-bimap-boost-1.78.0.tar.gz...
--- Extracting source C:/vcpkg/downloads/boostorg-bimap-boost-1.78.0.tar.gz
--- Using source at C:/vcpkg/buildtrees/boost-bimap/src/ost-1.78.0-33b0e66b8a.clean
--- Copying headers
--- Copying headers done
--- Installing: C:/vcpkg/packages/boost-bimap_x86-windows/share/boost-bimap/usage
--- Installing: C:/vcpkg/packages/boost-bimap_x86-windows/share/boost-bimap/copyright

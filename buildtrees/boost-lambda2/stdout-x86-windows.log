@@ -1,7 +1,0 @@
--- Downloading https://github.com/boostorg/lambda2/archive/boost-1.78.0.tar.gz -> boostorg-lambda2-boost-1.78.0.tar.gz...
--- Extracting source C:/vcpkg/downloads/boostorg-lambda2-boost-1.78.0.tar.gz
--- Using source at C:/vcpkg/buildtrees/boost-lambda2/src/ost-1.78.0-d27c573e69.clean
--- Copying headers
--- Copying headers done
--- Installing: C:/vcpkg/packages/boost-lambda2_x86-windows/share/boost-lambda2/usage
--- Installing: C:/vcpkg/packages/boost-lambda2_x86-windows/share/boost-lambda2/copyright

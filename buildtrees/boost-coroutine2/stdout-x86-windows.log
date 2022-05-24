@@ -1,7 +1,0 @@
--- Downloading https://github.com/boostorg/coroutine2/archive/boost-1.78.0.tar.gz -> boostorg-coroutine2-boost-1.78.0.tar.gz...
--- Extracting source C:/vcpkg/downloads/boostorg-coroutine2-boost-1.78.0.tar.gz
--- Using source at C:/vcpkg/buildtrees/boost-coroutine2/src/ost-1.78.0-231e4683b2.clean
--- Copying headers
--- Copying headers done
--- Installing: C:/vcpkg/packages/boost-coroutine2_x86-windows/share/boost-coroutine2/usage
--- Installing: C:/vcpkg/packages/boost-coroutine2_x86-windows/share/boost-coroutine2/copyright

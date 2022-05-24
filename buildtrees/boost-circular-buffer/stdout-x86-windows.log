@@ -1,7 +1,0 @@
--- Downloading https://github.com/boostorg/circular_buffer/archive/boost-1.78.0.tar.gz -> boostorg-circular_buffer-boost-1.78.0.tar.gz...
--- Extracting source C:/vcpkg/downloads/boostorg-circular_buffer-boost-1.78.0.tar.gz
--- Using source at C:/vcpkg/buildtrees/boost-circular-buffer/src/ost-1.78.0-13db9e9397.clean
--- Copying headers
--- Copying headers done
--- Installing: C:/vcpkg/packages/boost-circular-buffer_x86-windows/share/boost-circular-buffer/usage
--- Installing: C:/vcpkg/packages/boost-circular-buffer_x86-windows/share/boost-circular-buffer/copyright

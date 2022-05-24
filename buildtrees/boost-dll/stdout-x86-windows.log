@@ -1,7 +1,0 @@
--- Downloading https://github.com/boostorg/dll/archive/boost-1.78.0.tar.gz -> boostorg-dll-boost-1.78.0.tar.gz...
--- Extracting source C:/vcpkg/downloads/boostorg-dll-boost-1.78.0.tar.gz
--- Using source at C:/vcpkg/buildtrees/boost-dll/src/ost-1.78.0-a5649d4744.clean
--- Copying headers
--- Copying headers done
--- Installing: C:/vcpkg/packages/boost-dll_x86-windows/share/boost-dll/usage
--- Installing: C:/vcpkg/packages/boost-dll_x86-windows/share/boost-dll/copyright

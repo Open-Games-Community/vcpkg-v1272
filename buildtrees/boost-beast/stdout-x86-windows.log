@@ -1,7 +1,0 @@
--- Downloading https://github.com/boostorg/beast/archive/boost-1.78.0.tar.gz -> boostorg-beast-boost-1.78.0.tar.gz...
--- Extracting source C:/vcpkg/downloads/boostorg-beast-boost-1.78.0.tar.gz
--- Using source at C:/vcpkg/buildtrees/boost-beast/src/ost-1.78.0-74f6af048d.clean
--- Copying headers
--- Copying headers done
--- Installing: C:/vcpkg/packages/boost-beast_x86-windows/share/boost-beast/usage
--- Installing: C:/vcpkg/packages/boost-beast_x86-windows/share/boost-beast/copyright

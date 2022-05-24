@@ -1,2 +1,0 @@
-C:/vcpkg/packages/boost-contract_x86-windows/debug/lib/boost_contract-vc143-mt-gd-x32-1_78.lib
-C:/vcpkg/packages/boost-contract_x86-windows/debug/bin/boost_contract-vc143-mt-gd-x32-1_78.dll

@@ -1,7 +1,0 @@
--- Downloading https://github.com/boostorg/interprocess/archive/boost-1.78.0.tar.gz -> boostorg-interprocess-boost-1.78.0.tar.gz...
--- Extracting source C:/vcpkg/downloads/boostorg-interprocess-boost-1.78.0.tar.gz
--- Using source at C:/vcpkg/buildtrees/boost-interprocess/src/ost-1.78.0-ff6ce62bed.clean
--- Copying headers
--- Copying headers done
--- Installing: C:/vcpkg/packages/boost-interprocess_x86-windows/share/boost-interprocess/usage
--- Installing: C:/vcpkg/packages/boost-interprocess_x86-windows/share/boost-interprocess/copyright

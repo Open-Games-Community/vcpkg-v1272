@@ -1,7 +1,0 @@
--- Downloading https://github.com/boostorg/array/archive/boost-1.78.0.tar.gz -> boostorg-array-boost-1.78.0.tar.gz...
--- Extracting source C:/vcpkg/downloads/boostorg-array-boost-1.78.0.tar.gz
--- Using source at C:/vcpkg/buildtrees/boost-array/src/ost-1.78.0-696b2575ad.clean
--- Copying headers
--- Copying headers done
--- Installing: C:/vcpkg/packages/boost-array_x86-windows/share/boost-array/usage
--- Installing: C:/vcpkg/packages/boost-array_x86-windows/share/boost-array/copyright

@@ -1,7 +1,0 @@
--- Downloading https://github.com/boostorg/gil/archive/boost-1.78.0.tar.gz -> boostorg-gil-boost-1.78.0.tar.gz...
--- Extracting source C:/vcpkg/downloads/boostorg-gil-boost-1.78.0.tar.gz
--- Using source at C:/vcpkg/buildtrees/boost-gil/src/ost-1.78.0-8f9135c3f6.clean
--- Copying headers
--- Copying headers done
--- Installing: C:/vcpkg/packages/boost-gil_x86-windows/share/boost-gil/usage
--- Installing: C:/vcpkg/packages/boost-gil_x86-windows/share/boost-gil/copyright

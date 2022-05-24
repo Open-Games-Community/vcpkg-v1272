@@ -1,7 +1,0 @@
--- Downloading https://github.com/boostorg/detail/archive/boost-1.78.0.tar.gz -> boostorg-detail-boost-1.78.0.tar.gz...
--- Extracting source C:/vcpkg/downloads/boostorg-detail-boost-1.78.0.tar.gz
--- Using source at C:/vcpkg/buildtrees/boost-detail/src/ost-1.78.0-35a5f4465b.clean
--- Copying headers
--- Copying headers done
--- Installing: C:/vcpkg/packages/boost-detail_x86-windows/share/boost-detail/usage
--- Installing: C:/vcpkg/packages/boost-detail_x86-windows/share/boost-detail/copyright

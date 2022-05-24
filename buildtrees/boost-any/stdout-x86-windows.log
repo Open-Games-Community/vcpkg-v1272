@@ -1,7 +1,0 @@
--- Downloading https://github.com/boostorg/any/archive/boost-1.78.0.tar.gz -> boostorg-any-boost-1.78.0.tar.gz...
--- Extracting source C:/vcpkg/downloads/boostorg-any-boost-1.78.0.tar.gz
--- Using source at C:/vcpkg/buildtrees/boost-any/src/ost-1.78.0-0908c485e9.clean
--- Copying headers
--- Copying headers done
--- Installing: C:/vcpkg/packages/boost-any_x86-windows/share/boost-any/usage
--- Installing: C:/vcpkg/packages/boost-any_x86-windows/share/boost-any/copyright

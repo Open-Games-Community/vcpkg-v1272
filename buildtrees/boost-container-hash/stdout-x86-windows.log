@@ -1,7 +1,0 @@
--- Downloading https://github.com/boostorg/container_hash/archive/boost-1.78.0.tar.gz -> boostorg-container_hash-boost-1.78.0.tar.gz...
--- Extracting source C:/vcpkg/downloads/boostorg-container_hash-boost-1.78.0.tar.gz
--- Using source at C:/vcpkg/buildtrees/boost-container-hash/src/ost-1.78.0-e8fcd450f9.clean
--- Copying headers
--- Copying headers done
--- Installing: C:/vcpkg/packages/boost-container-hash_x86-windows/share/boost-container-hash/usage
--- Installing: C:/vcpkg/packages/boost-container-hash_x86-windows/share/boost-container-hash/copyright

@@ -1,7 +1,0 @@
--- Downloading https://github.com/boostorg/hana/archive/boost-1.78.0.tar.gz -> boostorg-hana-boost-1.78.0.tar.gz...
--- Extracting source C:/vcpkg/downloads/boostorg-hana-boost-1.78.0.tar.gz
--- Using source at C:/vcpkg/buildtrees/boost-hana/src/ost-1.78.0-d9d529e744.clean
--- Copying headers
--- Copying headers done
--- Installing: C:/vcpkg/packages/boost-hana_x86-windows/share/boost-hana/usage
--- Installing: C:/vcpkg/packages/boost-hana_x86-windows/share/boost-hana/copyright

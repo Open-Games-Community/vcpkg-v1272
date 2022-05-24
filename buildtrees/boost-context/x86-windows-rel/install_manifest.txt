@@ -1,2 +1,0 @@
-C:/vcpkg/packages/boost-context_x86-windows/lib/boost_context-vc143-mt-x32-1_78.lib
-C:/vcpkg/packages/boost-context_x86-windows/bin/boost_context-vc143-mt-x32-1_78.dll

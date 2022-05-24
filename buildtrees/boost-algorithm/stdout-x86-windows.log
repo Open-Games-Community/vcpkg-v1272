@@ -1,7 +1,0 @@
--- Downloading https://github.com/boostorg/algorithm/archive/boost-1.78.0.tar.gz -> boostorg-algorithm-boost-1.78.0.tar.gz...
--- Extracting source C:/vcpkg/downloads/boostorg-algorithm-boost-1.78.0.tar.gz
--- Using source at C:/vcpkg/buildtrees/boost-algorithm/src/ost-1.78.0-4e2bfc19bd.clean
--- Copying headers
--- Copying headers done
--- Installing: C:/vcpkg/packages/boost-algorithm_x86-windows/share/boost-algorithm/usage
--- Installing: C:/vcpkg/packages/boost-algorithm_x86-windows/share/boost-algorithm/copyright

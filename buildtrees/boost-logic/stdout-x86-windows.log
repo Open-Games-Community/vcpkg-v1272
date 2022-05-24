@@ -1,7 +1,0 @@
--- Downloading https://github.com/boostorg/logic/archive/boost-1.78.0.tar.gz -> boostorg-logic-boost-1.78.0.tar.gz...
--- Extracting source C:/vcpkg/downloads/boostorg-logic-boost-1.78.0.tar.gz
--- Using source at C:/vcpkg/buildtrees/boost-logic/src/ost-1.78.0-20ec9384dd.clean
--- Copying headers
--- Copying headers done
--- Installing: C:/vcpkg/packages/boost-logic_x86-windows/share/boost-logic/usage
--- Installing: C:/vcpkg/packages/boost-logic_x86-windows/share/boost-logic/copyright

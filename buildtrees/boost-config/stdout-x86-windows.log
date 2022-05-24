@@ -1,7 +1,0 @@
--- Downloading https://github.com/boostorg/config/archive/boost-1.78.0.tar.gz -> boostorg-config-boost-1.78.0.tar.gz...
--- Extracting source C:/vcpkg/downloads/boostorg-config-boost-1.78.0.tar.gz
--- Using source at C:/vcpkg/buildtrees/boost-config/src/ost-1.78.0-76557a9972.clean
--- Copying headers
--- Copying headers done
--- Installing: C:/vcpkg/packages/boost-config_x86-windows/share/boost-config/usage
--- Installing: C:/vcpkg/packages/boost-config_x86-windows/share/boost-config/copyright

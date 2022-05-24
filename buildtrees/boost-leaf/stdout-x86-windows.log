@@ -1,7 +1,0 @@
--- Downloading https://github.com/boostorg/leaf/archive/boost-1.78.0.tar.gz -> boostorg-leaf-boost-1.78.0.tar.gz...
--- Extracting source C:/vcpkg/downloads/boostorg-leaf-boost-1.78.0.tar.gz
--- Using source at C:/vcpkg/buildtrees/boost-leaf/src/ost-1.78.0-e0dc0b126a.clean
--- Copying headers
--- Copying headers done
--- Installing: C:/vcpkg/packages/boost-leaf_x86-windows/share/boost-leaf/usage
--- Installing: C:/vcpkg/packages/boost-leaf_x86-windows/share/boost-leaf/copyright

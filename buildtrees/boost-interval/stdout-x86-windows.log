@@ -1,7 +1,0 @@
--- Downloading https://github.com/boostorg/interval/archive/boost-1.78.0.tar.gz -> boostorg-interval-boost-1.78.0.tar.gz...
--- Extracting source C:/vcpkg/downloads/boostorg-interval-boost-1.78.0.tar.gz
--- Using source at C:/vcpkg/buildtrees/boost-interval/src/ost-1.78.0-5dafbe1588.clean
--- Copying headers
--- Copying headers done
--- Installing: C:/vcpkg/packages/boost-interval_x86-windows/share/boost-interval/usage
--- Installing: C:/vcpkg/packages/boost-interval_x86-windows/share/boost-interval/copyright

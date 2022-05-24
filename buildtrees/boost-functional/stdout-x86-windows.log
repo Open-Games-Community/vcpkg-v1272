@@ -1,7 +1,0 @@
--- Downloading https://github.com/boostorg/functional/archive/boost-1.78.0.tar.gz -> boostorg-functional-boost-1.78.0.tar.gz...
--- Extracting source C:/vcpkg/downloads/boostorg-functional-boost-1.78.0.tar.gz
--- Using source at C:/vcpkg/buildtrees/boost-functional/src/ost-1.78.0-d49619845f.clean
--- Copying headers
--- Copying headers done
--- Installing: C:/vcpkg/packages/boost-functional_x86-windows/share/boost-functional/usage
--- Installing: C:/vcpkg/packages/boost-functional_x86-windows/share/boost-functional/copyright

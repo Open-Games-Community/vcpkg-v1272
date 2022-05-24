@@ -1,7 +1,0 @@
--- Downloading https://github.com/boostorg/dynamic_bitset/archive/boost-1.78.0.tar.gz -> boostorg-dynamic_bitset-boost-1.78.0.tar.gz...
--- Extracting source C:/vcpkg/downloads/boostorg-dynamic_bitset-boost-1.78.0.tar.gz
--- Using source at C:/vcpkg/buildtrees/boost-dynamic-bitset/src/ost-1.78.0-12dd859a2c.clean
--- Copying headers
--- Copying headers done
--- Installing: C:/vcpkg/packages/boost-dynamic-bitset_x86-windows/share/boost-dynamic-bitset/usage
--- Installing: C:/vcpkg/packages/boost-dynamic-bitset_x86-windows/share/boost-dynamic-bitset/copyright
