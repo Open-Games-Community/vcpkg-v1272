@@ -1,0 +1,7 @@
+-- Downloading https://github.com/boostorg/histogram/archive/boost-1.78.0.tar.gz -> boostorg-histogram-boost-1.78.0.tar.gz...
+-- Extracting source C:/vcpkg/downloads/boostorg-histogram-boost-1.78.0.tar.gz
+-- Using source at C:/vcpkg/buildtrees/boost-histogram/src/ost-1.78.0-f739f4c0f1.clean
+-- Copying headers
+-- Copying headers done
+-- Installing: C:/vcpkg/packages/boost-histogram_x86-windows/share/boost-histogram/usage
+-- Installing: C:/vcpkg/packages/boost-histogram_x86-windows/share/boost-histogram/copyright

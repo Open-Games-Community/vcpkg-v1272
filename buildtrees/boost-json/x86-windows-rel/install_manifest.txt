@@ -1,0 +1,2 @@
+C:/vcpkg/packages/boost-json_x86-windows/lib/boost_json-vc143-mt-x32-1_78.lib
+C:/vcpkg/packages/boost-json_x86-windows/bin/boost_json-vc143-mt-x32-1_78.dll

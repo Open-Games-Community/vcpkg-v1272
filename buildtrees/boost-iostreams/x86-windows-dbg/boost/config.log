@@ -1,0 +1,145 @@
+msvc.read-setup <pC:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\msvc\fabbfd46c2a4e30dd1594f96c4cd44b2>msvc-setup.read
+ 
+common.mkdir C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost
+
+        if not exist "C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\\" mkdir "C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost"
+    
+common.mkdir C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone
+
+        if not exist "C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\\" mkdir "C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone"
+    
+common.mkdir C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\ac
+
+        if not exist "C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\ac\\" mkdir "C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\ac"
+    
+common.mkdir C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\msvc
+
+        if not exist "C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\msvc\\" mkdir "C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\msvc"
+    
+common.mkdir C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\ac\be5942cda3c3f2780e89dae0e486e1dd
+
+        if not exist "C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\ac\be5942cda3c3f2780e89dae0e486e1dd\\" mkdir "C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\ac\be5942cda3c3f2780e89dae0e486e1dd"
+    
+common.mkdir C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\msvc\fabbfd46c2a4e30dd1594f96c4cd44b2
+
+        if not exist "C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\msvc\fabbfd46c2a4e30dd1594f96c4cd44b2\\" mkdir "C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\msvc\fabbfd46c2a4e30dd1594f96c4cd44b2"
+    
+
+file C:\Users\pulpo\AppData\Local\Temp\jam41881cce.000
+
+common.mkdir C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\ac\d41d8cd98f00b204e9800998ecf8427e
+
+        if not exist "C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\ac\d41d8cd98f00b204e9800998ecf8427e\\" mkdir "C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\ac\d41d8cd98f00b204e9800998ecf8427e"
+    
+
+file C:\Users\pulpo\AppData\Local\Temp\jam41881ccf.000
+int main() {}
+msvc.write-setup-script C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\msvc\fabbfd46c2a4e30dd1594f96c4cd44b2\msvc-setup.bat
+
+    type "C:\Users\pulpo\AppData\Local\Temp\jam41881cce.000" > "C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\msvc\fabbfd46c2a4e30dd1594f96c4cd44b2\msvc-setup.bat"
+
+text-action C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\ac\d41d8cd98f00b204e9800998ecf8427e\main-zlibd.cpp
+
+    type "C:\Users\pulpo\AppData\Local\Temp\jam41881ccf.000" > "C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\ac\d41d8cd98f00b204e9800998ecf8427e\main-zlibd.cpp"
+
+compile-c-c++ C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\ac\be5942cda3c3f2780e89dae0e486e1dd\main-zlibd.obj
+
+    call "C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\msvc\fabbfd46c2a4e30dd1594f96c4cd44b2\msvc-setup.bat" x86 >nul
+ cl "C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\ac\d41d8cd98f00b204e9800998ecf8427e\main-zlibd.cpp" -c -Fo"C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\ac\be5942cda3c3f2780e89dae0e486e1dd\main-zlibd.obj"     -TP /wd4675 /EHs /GR /Zc:throwingNew -nologo -DWIN32 -D_WINDOWS -W3 -utf-8 -GR -EHsc -MP -D_DEBUG -MDd -Z7 -Ob0 -Od -RTC1 /Z7 /Od /Ob0 /W3 /MDd /Zc:forScope /Zc:wchar_t /Zc:inline 
+
+main-zlibd.cpp
+msvc.link C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\ac\be5942cda3c3f2780e89dae0e486e1dd\zlibd.exe
+
+        call "C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\msvc\fabbfd46c2a4e30dd1594f96c4cd44b2\msvc-setup.bat" x86 >nul
+ link /NOLOGO /INCREMENTAL:NO "C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\ac\be5942cda3c3f2780e89dae0e486e1dd\main-zlibd.obj"    "zlibd.lib"  /DEBUG /MACHINE:X86 /MANIFEST:EMBED /subsystem:console /out:"C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\ac\be5942cda3c3f2780e89dae0e486e1dd\zlibd.exe" /LIBPATH:"C:\vcpkg\installed\x86-windows\debug\lib" 
+    
+
+file C:\Users\pulpo\AppData\Local\Temp\jam41881cd0.000
+int main() {}
+text-action C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\ac\d41d8cd98f00b204e9800998ecf8427e\main-bz2d.cpp
+
+    type "C:\Users\pulpo\AppData\Local\Temp\jam41881cd0.000" > "C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\ac\d41d8cd98f00b204e9800998ecf8427e\main-bz2d.cpp"
+
+compile-c-c++ C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\ac\be5942cda3c3f2780e89dae0e486e1dd\main-bz2d.obj
+
+    call "C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\msvc\fabbfd46c2a4e30dd1594f96c4cd44b2\msvc-setup.bat" x86 >nul
+ cl "C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\ac\d41d8cd98f00b204e9800998ecf8427e\main-bz2d.cpp" -c -Fo"C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\ac\be5942cda3c3f2780e89dae0e486e1dd\main-bz2d.obj"     -TP /wd4675 /EHs /GR /Zc:throwingNew -nologo -DWIN32 -D_WINDOWS -W3 -utf-8 -GR -EHsc -MP -D_DEBUG -MDd -Z7 -Ob0 -Od -RTC1 /Z7 /Od /Ob0 /W3 /MDd /Zc:forScope /Zc:wchar_t /Zc:inline 
+
+main-bz2d.cpp
+msvc.link C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\ac\be5942cda3c3f2780e89dae0e486e1dd\bz2d.exe
+
+        call "C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\msvc\fabbfd46c2a4e30dd1594f96c4cd44b2\msvc-setup.bat" x86 >nul
+ link /NOLOGO /INCREMENTAL:NO "C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\ac\be5942cda3c3f2780e89dae0e486e1dd\main-bz2d.obj"    "bz2d.lib"  /DEBUG /MACHINE:X86 /MANIFEST:EMBED /subsystem:console /out:"C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\ac\be5942cda3c3f2780e89dae0e486e1dd\bz2d.exe" /LIBPATH:"C:\vcpkg\installed\x86-windows\debug\lib" 
+    
+
+file C:\Users\pulpo\AppData\Local\Temp\jam41881cd1.000
+int main() {}
+text-action C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\ac\d41d8cd98f00b204e9800998ecf8427e\main-lzma.cpp
+
+    type "C:\Users\pulpo\AppData\Local\Temp\jam41881cd1.000" > "C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\ac\d41d8cd98f00b204e9800998ecf8427e\main-lzma.cpp"
+
+compile-c-c++ C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\ac\be5942cda3c3f2780e89dae0e486e1dd\main-lzma.obj
+
+    call "C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\msvc\fabbfd46c2a4e30dd1594f96c4cd44b2\msvc-setup.bat" x86 >nul
+ cl "C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\ac\d41d8cd98f00b204e9800998ecf8427e\main-lzma.cpp" -c -Fo"C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\ac\be5942cda3c3f2780e89dae0e486e1dd\main-lzma.obj"     -TP /wd4675 /EHs /GR /Zc:throwingNew -nologo -DWIN32 -D_WINDOWS -W3 -utf-8 -GR -EHsc -MP -D_DEBUG -MDd -Z7 -Ob0 -Od -RTC1 /Z7 /Od /Ob0 /W3 /MDd /Zc:forScope /Zc:wchar_t /Zc:inline 
+
+main-lzma.cpp
+msvc.link C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\ac\be5942cda3c3f2780e89dae0e486e1dd\lzma.exe
+
+        call "C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\msvc\fabbfd46c2a4e30dd1594f96c4cd44b2\msvc-setup.bat" x86 >nul
+ link /NOLOGO /INCREMENTAL:NO "C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\ac\be5942cda3c3f2780e89dae0e486e1dd\main-lzma.obj"    "lzma.lib"  /DEBUG /MACHINE:X86 /MANIFEST:EMBED /subsystem:console /out:"C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\ac\be5942cda3c3f2780e89dae0e486e1dd\lzma.exe" /LIBPATH:"C:\vcpkg\installed\x86-windows\debug\lib" 
+    
+
+file C:\Users\pulpo\AppData\Local\Temp\jam41881cd2.000
+int main() {}
+text-action C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\ac\d41d8cd98f00b204e9800998ecf8427e\main-zstd.cpp
+
+    type "C:\Users\pulpo\AppData\Local\Temp\jam41881cd2.000" > "C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\ac\d41d8cd98f00b204e9800998ecf8427e\main-zstd.cpp"
+
+compile-c-c++ C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\ac\be5942cda3c3f2780e89dae0e486e1dd\main-zstd.obj
+
+    call "C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\msvc\fabbfd46c2a4e30dd1594f96c4cd44b2\msvc-setup.bat" x86 >nul
+ cl "C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\ac\d41d8cd98f00b204e9800998ecf8427e\main-zstd.cpp" -c -Fo"C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\ac\be5942cda3c3f2780e89dae0e486e1dd\main-zstd.obj"     -TP /wd4675 /EHs /GR /Zc:throwingNew -nologo -DWIN32 -D_WINDOWS -W3 -utf-8 -GR -EHsc -MP -D_DEBUG -MDd -Z7 -Ob0 -Od -RTC1 /Z7 /Od /Ob0 /W3 /MDd /Zc:forScope /Zc:wchar_t /Zc:inline 
+
+main-zstd.cpp
+msvc.link C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\ac\be5942cda3c3f2780e89dae0e486e1dd\zstd.exe
+
+        call "C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\msvc\fabbfd46c2a4e30dd1594f96c4cd44b2\msvc-setup.bat" x86 >nul
+ link /NOLOGO /INCREMENTAL:NO "C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\ac\be5942cda3c3f2780e89dae0e486e1dd\main-zstd.obj"    "zstd.lib"  /DEBUG /MACHINE:X86 /MANIFEST:EMBED /subsystem:console /out:"C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\ac\be5942cda3c3f2780e89dae0e486e1dd\zstd.exe" /LIBPATH:"C:\vcpkg\installed\x86-windows\debug\lib" 
+    
+common.mkdir C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\build
+
+        if not exist "C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\build\\" mkdir "C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\build"
+    
+common.mkdir C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\build\be5942cda3c3f2780e89dae0e486e1dd
+
+        if not exist "C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\build\be5942cda3c3f2780e89dae0e486e1dd\\" mkdir "C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\build\be5942cda3c3f2780e89dae0e486e1dd"
+    
+compile-c-c++ C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\build\be5942cda3c3f2780e89dae0e486e1dd\has_lzma_cputhreads.obj
+
+    call "C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\msvc\fabbfd46c2a4e30dd1594f96c4cd44b2\msvc-setup.bat" x86 >nul
+ cl "..\src\..\build\has_lzma_cputhreads.cpp" -c -Fo"C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\build\be5942cda3c3f2780e89dae0e486e1dd\has_lzma_cputhreads.obj"     -TP /wd4675 /EHs /GR /Zc:throwingNew -nologo -DWIN32 -D_WINDOWS -W3 -utf-8 -GR -EHsc -MP -D_DEBUG -MDd -Z7 -Ob0 -Od -RTC1 /Z7 /Od /Ob0 /W3 /MDd /Zc:forScope /Zc:wchar_t /Zc:inline -DBOOST_ALL_NO_LIB=1 "-I..\include" "-IC:\vcpkg\installed\x86-windows\include" 
+
+has_lzma_cputhreads.cpp
+msvc.link C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\build\be5942cda3c3f2780e89dae0e486e1dd\has_lzma_cputhreads.exe
+
+        call "C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\standalone\msvc\fabbfd46c2a4e30dd1594f96c4cd44b2\msvc-setup.bat" x86 >nul
+ link /NOLOGO /INCREMENTAL:NO "C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\build\be5942cda3c3f2780e89dae0e486e1dd\has_lzma_cputhreads.obj"    "lzma.lib"  /DEBUG -machine:X86 -nologo -debug -INCREMENTAL /MACHINE:X86 /MANIFEST:EMBED /subsystem:console /out:"C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\build\be5942cda3c3f2780e89dae0e486e1dd\has_lzma_cputhreads.exe" /LIBPATH:"C:\vcpkg\installed\x86-windows\debug\lib" 
+    
+
+file C:\Users\pulpo\AppData\Local\Temp\jam41881cd3.000
+# Automatically generated by B2.
+# Do not edit.
+
+module config-cache {
+  set "ac-library-zlib-<link>shared" : "C:/vcpkg/installed/x86-windows/include" "zlibd" "<link>shared" ;
+  set "ac-library-bzip2-<link>shared" : "C:/vcpkg/installed/x86-windows/include" "bz2d" "<link>shared" ;
+  set "ac-library-lzma-<link>shared" : "C:/vcpkg/installed/x86-windows/include" "lzma" "<link>shared" ;
+  set "ac-library-zstd-<link>shared" : "C:/vcpkg/installed/x86-windows/include" "zstd" "<link>shared" ;
+  set "has_lzma_cputhreads builds-<address-model>32-<architecture>x86-<threadapi>win32-<threading>multi-<toolset-msvc:version>143-<toolset>msvc-<variant>debug" : "true" ;
+}
+
+config-cache.write C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\project-cache.jam
+
+    type "C:\Users\pulpo\AppData\Local\Temp\jam41881cd3.000" > "C:\vcpkg\buildtrees\boost-iostreams\x86-windows-dbg\boost\project-cache.jam"
+

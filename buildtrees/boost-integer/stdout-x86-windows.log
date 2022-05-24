@@ -1,0 +1,7 @@
+-- Downloading https://github.com/boostorg/integer/archive/boost-1.78.0.tar.gz -> boostorg-integer-boost-1.78.0.tar.gz...
+-- Extracting source C:/vcpkg/downloads/boostorg-integer-boost-1.78.0.tar.gz
+-- Using source at C:/vcpkg/buildtrees/boost-integer/src/ost-1.78.0-b1cbe25ea1.clean
+-- Copying headers
+-- Copying headers done
+-- Installing: C:/vcpkg/packages/boost-integer_x86-windows/share/boost-integer/usage
+-- Installing: C:/vcpkg/packages/boost-integer_x86-windows/share/boost-integer/copyright

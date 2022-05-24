@@ -1,0 +1,7 @@
+-- Downloading https://github.com/boostorg/icl/archive/boost-1.78.0.tar.gz -> boostorg-icl-boost-1.78.0.tar.gz...
+-- Extracting source C:/vcpkg/downloads/boostorg-icl-boost-1.78.0.tar.gz
+-- Using source at C:/vcpkg/buildtrees/boost-icl/src/ost-1.78.0-b87b4ac9b9.clean
+-- Copying headers
+-- Copying headers done
+-- Installing: C:/vcpkg/packages/boost-icl_x86-windows/share/boost-icl/usage
+-- Installing: C:/vcpkg/packages/boost-icl_x86-windows/share/boost-icl/copyright

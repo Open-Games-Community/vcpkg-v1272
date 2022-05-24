@@ -1,0 +1,7 @@
+-- Downloading https://github.com/boostorg/io/archive/boost-1.78.0.tar.gz -> boostorg-io-boost-1.78.0.tar.gz...
+-- Extracting source C:/vcpkg/downloads/boostorg-io-boost-1.78.0.tar.gz
+-- Using source at C:/vcpkg/buildtrees/boost-io/src/ost-1.78.0-326cf54b8c.clean
+-- Copying headers
+-- Copying headers done
+-- Installing: C:/vcpkg/packages/boost-io_x86-windows/share/boost-io/usage
+-- Installing: C:/vcpkg/packages/boost-io_x86-windows/share/boost-io/copyright
