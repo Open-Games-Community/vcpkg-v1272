@@ -1,0 +1,7 @@
+-- Downloading https://github.com/boostorg/lexical_cast/archive/boost-1.78.0.tar.gz -> boostorg-lexical_cast-boost-1.78.0.tar.gz...
+-- Extracting source C:/vcpkg/downloads/boostorg-lexical_cast-boost-1.78.0.tar.gz
+-- Using source at C:/vcpkg/buildtrees/boost-lexical-cast/src/ost-1.78.0-3aa78384f9.clean
+-- Copying headers
+-- Copying headers done
+-- Installing: C:/vcpkg/packages/boost-lexical-cast_x86-windows/share/boost-lexical-cast/usage
+-- Installing: C:/vcpkg/packages/boost-lexical-cast_x86-windows/share/boost-lexical-cast/copyright

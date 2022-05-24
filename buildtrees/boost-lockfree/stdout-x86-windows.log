@@ -1,0 +1,7 @@
+-- Downloading https://github.com/boostorg/lockfree/archive/boost-1.78.0.tar.gz -> boostorg-lockfree-boost-1.78.0.tar.gz...
+-- Extracting source C:/vcpkg/downloads/boostorg-lockfree-boost-1.78.0.tar.gz
+-- Using source at C:/vcpkg/buildtrees/boost-lockfree/src/ost-1.78.0-b9eb8dccf9.clean
+-- Copying headers
+-- Copying headers done
+-- Installing: C:/vcpkg/packages/boost-lockfree_x86-windows/share/boost-lockfree/usage
+-- Installing: C:/vcpkg/packages/boost-lockfree_x86-windows/share/boost-lockfree/copyright

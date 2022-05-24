@@ -1,0 +1,7 @@
+-- Downloading https://github.com/boostorg/local_function/archive/boost-1.78.0.tar.gz -> boostorg-local_function-boost-1.78.0.tar.gz...
+-- Extracting source C:/vcpkg/downloads/boostorg-local_function-boost-1.78.0.tar.gz
+-- Using source at C:/vcpkg/buildtrees/boost-local-function/src/ost-1.78.0-fb848414c6.clean
+-- Copying headers
+-- Copying headers done
+-- Installing: C:/vcpkg/packages/boost-local-function_x86-windows/share/boost-local-function/usage
+-- Installing: C:/vcpkg/packages/boost-local-function_x86-windows/share/boost-local-function/copyright

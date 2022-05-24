@@ -1,0 +1,2 @@
+C:/vcpkg/packages/boost-locale_x86-windows/debug/lib/boost_locale-vc143-mt-gd-x32-1_78.lib
+C:/vcpkg/packages/boost-locale_x86-windows/debug/bin/boost_locale-vc143-mt-gd-x32-1_78.dll
