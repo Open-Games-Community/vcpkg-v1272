@@ -1,0 +1,7 @@
+-- Downloading https://github.com/boostorg/geometry/archive/boost-1.78.0.tar.gz -> boostorg-geometry-boost-1.78.0.tar.gz...
+-- Extracting source C:/vcpkg/downloads/boostorg-geometry-boost-1.78.0.tar.gz
+-- Using source at C:/vcpkg/buildtrees/boost-geometry/src/ost-1.78.0-cb55d20308.clean
+-- Copying headers
+-- Copying headers done
+-- Installing: C:/vcpkg/packages/boost-geometry_x86-windows/share/boost-geometry/usage
+-- Installing: C:/vcpkg/packages/boost-geometry_x86-windows/share/boost-geometry/copyright
