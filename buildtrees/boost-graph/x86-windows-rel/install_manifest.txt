@@ -1,0 +1,2 @@
+C:/vcpkg/packages/boost-graph_x86-windows/lib/boost_graph-vc143-mt-x32-1_78.lib
+C:/vcpkg/packages/boost-graph_x86-windows/bin/boost_graph-vc143-mt-x32-1_78.dll
