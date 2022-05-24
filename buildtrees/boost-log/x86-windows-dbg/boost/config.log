@@ -1,0 +1,113 @@
+msvc.read-setup <pC:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost\standalone\msvc\fabbfd46c2a4e30dd1594f96c4cd44b2>msvc-setup.read
+ 
+common.mkdir C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost
+
+        if not exist "C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost\\" mkdir "C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost"
+    
+common.mkdir C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost\config
+
+        if not exist "C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost\config\\" mkdir "C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost\config"
+    
+common.mkdir C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost\standalone
+
+        if not exist "C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost\standalone\\" mkdir "C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost\standalone"
+    
+common.mkdir C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost\config\atomic-int32
+
+        if not exist "C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost\config\atomic-int32\\" mkdir "C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost\config\atomic-int32"
+    
+common.mkdir C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost\standalone\msvc
+
+        if not exist "C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost\standalone\msvc\\" mkdir "C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost\standalone\msvc"
+    
+common.mkdir C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost\config\atomic-int32\adcd3b5755eed907c314699edd43cced
+
+        if not exist "C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost\config\atomic-int32\adcd3b5755eed907c314699edd43cced\\" mkdir "C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost\config\atomic-int32\adcd3b5755eed907c314699edd43cced"
+    
+common.mkdir C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost\standalone\msvc\fabbfd46c2a4e30dd1594f96c4cd44b2
+
+        if not exist "C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost\standalone\msvc\fabbfd46c2a4e30dd1594f96c4cd44b2\\" mkdir "C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost\standalone\msvc\fabbfd46c2a4e30dd1594f96c4cd44b2"
+    
+
+file C:\Users\pulpo\AppData\Local\Temp\jam2b641d1a.000
+
+msvc.write-setup-script C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost\standalone\msvc\fabbfd46c2a4e30dd1594f96c4cd44b2\msvc-setup.bat
+
+    type "C:\Users\pulpo\AppData\Local\Temp\jam2b641d1a.000" > "C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost\standalone\msvc\fabbfd46c2a4e30dd1594f96c4cd44b2\msvc-setup.bat"
+
+compile-c-c++ C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost\config\atomic-int32\adcd3b5755eed907c314699edd43cced\atomic_int32.obj
+
+    call "C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost\standalone\msvc\fabbfd46c2a4e30dd1594f96c4cd44b2\msvc-setup.bat" x86 >nul
+ cl "..\config\atomic-int32\atomic_int32.cpp" -c -Fo"C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost\config\atomic-int32\adcd3b5755eed907c314699edd43cced\atomic_int32.obj"     -TP /wd4675 /EHs /GR /Zc:throwingNew -nologo -DWIN32 -D_WINDOWS -W3 -utf-8 -GR -EHsc -MP -D_DEBUG -MDd -Z7 -Ob0 -Od -RTC1 /Z7 /Od /Ob0 /W3 /MDd /Zc:forScope /Zc:wchar_t /Zc:inline -DBOOST_ALL_NO_LIB=1 -DNOMINMAX -DSECURITY_WIN32 -DWIN32_LEAN_AND_MEAN -D_CRT_SECURE_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -D_SCL_SECURE_NO_DEPRECATE -D_SCL_SECURE_NO_WARNINGS "-I..\include" "-IC:\vcpkg\installed\x86-windows\include" 
+
+atomic_int32.cpp
+common.mkdir C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost\config\message-compiler
+
+        if not exist "C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost\config\message-compiler\\" mkdir "C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost\config\message-compiler"
+    
+common.mkdir C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost\config\message-compiler\adcd3b5755eed907c314699edd43cced
+
+        if not exist "C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost\config\message-compiler\adcd3b5755eed907c314699edd43cced\\" mkdir "C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost\config\message-compiler\adcd3b5755eed907c314699edd43cced"
+    
+msvc.compile.mc C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost\config\message-compiler\adcd3b5755eed907c314699edd43cced\simple_event_log.h
+
+    call "C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost\standalone\msvc\fabbfd46c2a4e30dd1594f96c4cd44b2\msvc-setup.bat" x86 >nul
+ mc  -h "C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost\config\message-compiler\adcd3b5755eed907c314699edd43cced" -r "C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost\config\message-compiler\adcd3b5755eed907c314699edd43cced" "..\src\windows\simple_event_log.mc"
+
+MC: Compiling ..\src\windows\simple_event_log.mc
+msvc.compile.rc C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost\config\message-compiler\adcd3b5755eed907c314699edd43cced\simple_event_log_res.obj
+
+    call "C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost\standalone\msvc\fabbfd46c2a4e30dd1594f96c4cd44b2\msvc-setup.bat" x86 >nul
+ rc  -l 0x409  -DBOOST_ALL_NO_LIB=1 -DNOMINMAX -DSECURITY_WIN32 -DWIN32_LEAN_AND_MEAN -D_CRT_SECURE_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -D_SCL_SECURE_NO_DEPRECATE -D_SCL_SECURE_NO_WARNINGS -I"..\include" -I"C:\vcpkg\installed\x86-windows\include" -I"C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost\config\message-compiler\adcd3b5755eed907c314699edd43cced" -fo "C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost\config\message-compiler\adcd3b5755eed907c314699edd43cced\simple_event_log_res.obj" "C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost\config\message-compiler\adcd3b5755eed907c314699edd43cced\simple_event_log.rc"
+
+Microsoft (R) Windows (R) Resource Compiler Version 10.0.10011.16384
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+common.mkdir C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost\config\native-syslog
+
+        if not exist "C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost\config\native-syslog\\" mkdir "C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost\config\native-syslog"
+    
+common.mkdir C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost\config\native-syslog\adcd3b5755eed907c314699edd43cced
+
+        if not exist "C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost\config\native-syslog\adcd3b5755eed907c314699edd43cced\\" mkdir "C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost\config\native-syslog\adcd3b5755eed907c314699edd43cced"
+    
+compile-c-c++ C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost\config\native-syslog\adcd3b5755eed907c314699edd43cced\native_syslog.obj
+
+    call "C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost\standalone\msvc\fabbfd46c2a4e30dd1594f96c4cd44b2\msvc-setup.bat" x86 >nul
+ cl "..\config\native-syslog\native_syslog.cpp" -c -Fo"C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost\config\native-syslog\adcd3b5755eed907c314699edd43cced\native_syslog.obj"     -TP /wd4675 /EHs /GR /Zc:throwingNew -nologo -DWIN32 -D_WINDOWS -W3 -utf-8 -GR -EHsc -MP -D_DEBUG -MDd -Z7 -Ob0 -Od -RTC1 /Z7 /Od /Ob0 /W3 /MDd /Zc:forScope /Zc:wchar_t /Zc:inline -DBOOST_ALL_NO_LIB=1 -DNOMINMAX -DSECURITY_WIN32 -DWIN32_LEAN_AND_MEAN -D_CRT_SECURE_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -D_SCL_SECURE_NO_DEPRECATE -D_SCL_SECURE_NO_WARNINGS "-I..\include" "-IC:\vcpkg\installed\x86-windows\include" 
+
+native_syslog.cpp
+..\config\native-syslog\native_syslog.cpp(8): fatal error C1083: No se puede abrir el archivo incluir: 'syslog.h': No such file or directory
+...failed updating 1 target...
+common.mkdir C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost\config\pthread-mutex-robust
+
+        if not exist "C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost\config\pthread-mutex-robust\\" mkdir "C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost\config\pthread-mutex-robust"
+    
+common.mkdir C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost\config\pthread-mutex-robust\adcd3b5755eed907c314699edd43cced
+
+        if not exist "C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost\config\pthread-mutex-robust\adcd3b5755eed907c314699edd43cced\\" mkdir "C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost\config\pthread-mutex-robust\adcd3b5755eed907c314699edd43cced"
+    
+compile-c-c++ C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost\config\pthread-mutex-robust\adcd3b5755eed907c314699edd43cced\pthread_mutex_robust.obj
+
+    call "C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost\standalone\msvc\fabbfd46c2a4e30dd1594f96c4cd44b2\msvc-setup.bat" x86 >nul
+ cl "..\config\pthread-mutex-robust\pthread_mutex_robust.cpp" -c -Fo"C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost\config\pthread-mutex-robust\adcd3b5755eed907c314699edd43cced\pthread_mutex_robust.obj"     -TP /wd4675 /EHs /GR /Zc:throwingNew -nologo -DWIN32 -D_WINDOWS -W3 -utf-8 -GR -EHsc -MP -D_DEBUG -MDd -Z7 -Ob0 -Od -RTC1 /Z7 /Od /Ob0 /W3 /MDd /Zc:forScope /Zc:wchar_t /Zc:inline -DBOOST_ALL_NO_LIB=1 -DNOMINMAX -DSECURITY_WIN32 -DWIN32_LEAN_AND_MEAN -D_CRT_SECURE_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -D_SCL_SECURE_NO_DEPRECATE -D_SCL_SECURE_NO_WARNINGS "-I..\include" "-IC:\vcpkg\installed\x86-windows\include" 
+
+pthread_mutex_robust.cpp
+..\config\pthread-mutex-robust\pthread_mutex_robust.cpp(9): fatal error C1083: No se puede abrir el archivo incluir: 'pthread.h': No such file or directory
+...failed updating 1 target...
+
+file C:\Users\pulpo\AppData\Local\Temp\jam2b641d1b.000
+# Automatically generated by B2.
+# Do not edit.
+
+module config-cache {
+  set "native atomic int32 supported-<address-model>32-<architecture>x86-<threadapi>win32-<threading>multi-<toolset-msvc:version>143-<toolset>msvc-<variant>debug" : "true" ;
+  set "has message compiler-<address-model>32-<architecture>x86-<threadapi>win32-<threading>multi-<toolset-msvc:version>143-<toolset>msvc-<variant>debug" : "true" ;
+  set "native syslog supported-<address-model>32-<architecture>x86-<threadapi>win32-<threading>multi-<toolset-msvc:version>143-<toolset>msvc-<variant>debug" : "false" ;
+  set "pthread supports robust mutexes-<address-model>32-<architecture>x86-<threadapi>win32-<threading>multi-<toolset-msvc:version>143-<toolset>msvc-<variant>debug" : "false" ;
+}
+
+config-cache.write C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost\project-cache.jam
+
+    type "C:\Users\pulpo\AppData\Local\Temp\jam2b641d1b.000" > "C:\vcpkg\buildtrees\boost-log\x86-windows-dbg\boost\project-cache.jam"
+
