@@ -1,0 +1,153 @@
+msvc.read-setup <pC:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\standalone\msvc\fabbfd46c2a4e30dd1594f96c4cd44b2>msvc-setup.read
+ 
+common.mkdir C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost
+
+        if not exist "C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\\" mkdir "C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost"
+    
+common.mkdir C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\standalone
+
+        if not exist "C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\standalone\\" mkdir "C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\standalone"
+    
+common.mkdir C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\config
+
+        if not exist "C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\config\\" mkdir "C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\config"
+    
+common.mkdir C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\standalone\msvc
+
+        if not exist "C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\standalone\msvc\\" mkdir "C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\standalone\msvc"
+    
+common.mkdir C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\config\checks
+
+        if not exist "C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\config\checks\\" mkdir "C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\config\checks"
+    
+common.mkdir C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\standalone\msvc\fabbfd46c2a4e30dd1594f96c4cd44b2
+
+        if not exist "C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\standalone\msvc\fabbfd46c2a4e30dd1594f96c4cd44b2\\" mkdir "C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\standalone\msvc\fabbfd46c2a4e30dd1594f96c4cd44b2"
+    
+
+file C:\Users\pulpo\AppData\Local\Temp\jam3c1c1c06.000
+
+common.mkdir C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\config\checks\7dbc51e91fe9e87de6b8b7cecdb66cf8
+
+        if not exist "C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\config\checks\7dbc51e91fe9e87de6b8b7cecdb66cf8\\" mkdir "C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\config\checks\7dbc51e91fe9e87de6b8b7cecdb66cf8"
+    
+msvc.write-setup-script C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\standalone\msvc\fabbfd46c2a4e30dd1594f96c4cd44b2\msvc-setup.bat
+
+    type "C:\Users\pulpo\AppData\Local\Temp\jam3c1c1c06.000" > "C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\standalone\msvc\fabbfd46c2a4e30dd1594f96c4cd44b2\msvc-setup.bat"
+
+compile-c-c++ C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\config\checks\7dbc51e91fe9e87de6b8b7cecdb66cf8\cxx11_auto_declarations.obj
+
+    call "C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\standalone\msvc\fabbfd46c2a4e30dd1594f96c4cd44b2\msvc-setup.bat" x86 >nul
+ cl "C:\vcpkg\buildtrees\boost-fiber\src\ost-1.78.0-f4b12aa4d2.clean\config\checks\test_case.cpp" -c -Fo"C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\config\checks\7dbc51e91fe9e87de6b8b7cecdb66cf8\cxx11_auto_declarations.obj"     -TP /wd4675 /EHs /GR /Zc:throwingNew -nologo -DWIN32 -D_WINDOWS -W3 -utf-8 -GR -EHsc -MP -MD -O2 -Oi -Gy -DNDEBUG -Z7 /O2 /Z7 /Ob2 /W3 /MD /Zc:forScope /Zc:wchar_t /Zc:inline /Gw -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_AUTO_DECLARATIONS "-I..\include" "-IC:\vcpkg\installed\x86-windows\include" 
+
+test_case.cpp
+compile-c-c++ C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\config\checks\7dbc51e91fe9e87de6b8b7cecdb66cf8\cxx11_constexpr.obj
+
+    call "C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\standalone\msvc\fabbfd46c2a4e30dd1594f96c4cd44b2\msvc-setup.bat" x86 >nul
+ cl "C:\vcpkg\buildtrees\boost-fiber\src\ost-1.78.0-f4b12aa4d2.clean\config\checks\test_case.cpp" -c -Fo"C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\config\checks\7dbc51e91fe9e87de6b8b7cecdb66cf8\cxx11_constexpr.obj"     -TP /wd4675 /EHs /GR /Zc:throwingNew -nologo -DWIN32 -D_WINDOWS -W3 -utf-8 -GR -EHsc -MP -MD -O2 -Oi -Gy -DNDEBUG -Z7 /O2 /Z7 /Ob2 /W3 /MD /Zc:forScope /Zc:wchar_t /Zc:inline /Gw -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_CONSTEXPR "-I..\include" "-IC:\vcpkg\installed\x86-windows\include" 
+
+test_case.cpp
+compile-c-c++ C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\config\checks\7dbc51e91fe9e87de6b8b7cecdb66cf8\cxx11_defaulted_functions.obj
+
+    call "C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\standalone\msvc\fabbfd46c2a4e30dd1594f96c4cd44b2\msvc-setup.bat" x86 >nul
+ cl "C:\vcpkg\buildtrees\boost-fiber\src\ost-1.78.0-f4b12aa4d2.clean\config\checks\test_case.cpp" -c -Fo"C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\config\checks\7dbc51e91fe9e87de6b8b7cecdb66cf8\cxx11_defaulted_functions.obj"     -TP /wd4675 /EHs /GR /Zc:throwingNew -nologo -DWIN32 -D_WINDOWS -W3 -utf-8 -GR -EHsc -MP -MD -O2 -Oi -Gy -DNDEBUG -Z7 /O2 /Z7 /Ob2 /W3 /MD /Zc:forScope /Zc:wchar_t /Zc:inline /Gw -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_DEFAULTED_FUNCTIONS "-I..\include" "-IC:\vcpkg\installed\x86-windows\include" 
+
+test_case.cpp
+compile-c-c++ C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\config\checks\7dbc51e91fe9e87de6b8b7cecdb66cf8\cxx11_final.obj
+
+    call "C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\standalone\msvc\fabbfd46c2a4e30dd1594f96c4cd44b2\msvc-setup.bat" x86 >nul
+ cl "C:\vcpkg\buildtrees\boost-fiber\src\ost-1.78.0-f4b12aa4d2.clean\config\checks\test_case.cpp" -c -Fo"C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\config\checks\7dbc51e91fe9e87de6b8b7cecdb66cf8\cxx11_final.obj"     -TP /wd4675 /EHs /GR /Zc:throwingNew -nologo -DWIN32 -D_WINDOWS -W3 -utf-8 -GR -EHsc -MP -MD -O2 -Oi -Gy -DNDEBUG -Z7 /O2 /Z7 /Ob2 /W3 /MD /Zc:forScope /Zc:wchar_t /Zc:inline /Gw -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_FINAL "-I..\include" "-IC:\vcpkg\installed\x86-windows\include" 
+
+test_case.cpp
+compile-c-c++ C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\config\checks\7dbc51e91fe9e87de6b8b7cecdb66cf8\cxx11_hdr_mutex.obj
+
+    call "C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\standalone\msvc\fabbfd46c2a4e30dd1594f96c4cd44b2\msvc-setup.bat" x86 >nul
+ cl "C:\vcpkg\buildtrees\boost-fiber\src\ost-1.78.0-f4b12aa4d2.clean\config\checks\test_case.cpp" -c -Fo"C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\config\checks\7dbc51e91fe9e87de6b8b7cecdb66cf8\cxx11_hdr_mutex.obj"     -TP /wd4675 /EHs /GR /Zc:throwingNew -nologo -DWIN32 -D_WINDOWS -W3 -utf-8 -GR -EHsc -MP -MD -O2 -Oi -Gy -DNDEBUG -Z7 /O2 /Z7 /Ob2 /W3 /MD /Zc:forScope /Zc:wchar_t /Zc:inline /Gw -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_HDR_MUTEX "-I..\include" "-IC:\vcpkg\installed\x86-windows\include" 
+
+test_case.cpp
+compile-c-c++ C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\config\checks\7dbc51e91fe9e87de6b8b7cecdb66cf8\cxx11_hdr_tuple.obj
+
+    call "C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\standalone\msvc\fabbfd46c2a4e30dd1594f96c4cd44b2\msvc-setup.bat" x86 >nul
+ cl "C:\vcpkg\buildtrees\boost-fiber\src\ost-1.78.0-f4b12aa4d2.clean\config\checks\test_case.cpp" -c -Fo"C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\config\checks\7dbc51e91fe9e87de6b8b7cecdb66cf8\cxx11_hdr_tuple.obj"     -TP /wd4675 /EHs /GR /Zc:throwingNew -nologo -DWIN32 -D_WINDOWS -W3 -utf-8 -GR -EHsc -MP -MD -O2 -Oi -Gy -DNDEBUG -Z7 /O2 /Z7 /Ob2 /W3 /MD /Zc:forScope /Zc:wchar_t /Zc:inline /Gw -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_HDR_TUPLE "-I..\include" "-IC:\vcpkg\installed\x86-windows\include" 
+
+test_case.cpp
+compile-c-c++ C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\config\checks\7dbc51e91fe9e87de6b8b7cecdb66cf8\cxx11_lambdas.obj
+
+    call "C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\standalone\msvc\fabbfd46c2a4e30dd1594f96c4cd44b2\msvc-setup.bat" x86 >nul
+ cl "C:\vcpkg\buildtrees\boost-fiber\src\ost-1.78.0-f4b12aa4d2.clean\config\checks\test_case.cpp" -c -Fo"C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\config\checks\7dbc51e91fe9e87de6b8b7cecdb66cf8\cxx11_lambdas.obj"     -TP /wd4675 /EHs /GR /Zc:throwingNew -nologo -DWIN32 -D_WINDOWS -W3 -utf-8 -GR -EHsc -MP -MD -O2 -Oi -Gy -DNDEBUG -Z7 /O2 /Z7 /Ob2 /W3 /MD /Zc:forScope /Zc:wchar_t /Zc:inline /Gw -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_LAMBDAS "-I..\include" "-IC:\vcpkg\installed\x86-windows\include" 
+
+test_case.cpp
+compile-c-c++ C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\config\checks\7dbc51e91fe9e87de6b8b7cecdb66cf8\cxx11_noexcept.obj
+
+    call "C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\standalone\msvc\fabbfd46c2a4e30dd1594f96c4cd44b2\msvc-setup.bat" x86 >nul
+ cl "C:\vcpkg\buildtrees\boost-fiber\src\ost-1.78.0-f4b12aa4d2.clean\config\checks\test_case.cpp" -c -Fo"C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\config\checks\7dbc51e91fe9e87de6b8b7cecdb66cf8\cxx11_noexcept.obj"     -TP /wd4675 /EHs /GR /Zc:throwingNew -nologo -DWIN32 -D_WINDOWS -W3 -utf-8 -GR -EHsc -MP -MD -O2 -Oi -Gy -DNDEBUG -Z7 /O2 /Z7 /Ob2 /W3 /MD /Zc:forScope /Zc:wchar_t /Zc:inline /Gw -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_NOEXCEPT "-I..\include" "-IC:\vcpkg\installed\x86-windows\include" 
+
+test_case.cpp
+compile-c-c++ C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\config\checks\7dbc51e91fe9e87de6b8b7cecdb66cf8\cxx11_nullptr.obj
+
+    call "C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\standalone\msvc\fabbfd46c2a4e30dd1594f96c4cd44b2\msvc-setup.bat" x86 >nul
+ cl "C:\vcpkg\buildtrees\boost-fiber\src\ost-1.78.0-f4b12aa4d2.clean\config\checks\test_case.cpp" -c -Fo"C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\config\checks\7dbc51e91fe9e87de6b8b7cecdb66cf8\cxx11_nullptr.obj"     -TP /wd4675 /EHs /GR /Zc:throwingNew -nologo -DWIN32 -D_WINDOWS -W3 -utf-8 -GR -EHsc -MP -MD -O2 -Oi -Gy -DNDEBUG -Z7 /O2 /Z7 /Ob2 /W3 /MD /Zc:forScope /Zc:wchar_t /Zc:inline /Gw -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_NULLPTR "-I..\include" "-IC:\vcpkg\installed\x86-windows\include" 
+
+test_case.cpp
+compile-c-c++ C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\config\checks\7dbc51e91fe9e87de6b8b7cecdb66cf8\cxx11_rvalue_references.obj
+
+    call "C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\standalone\msvc\fabbfd46c2a4e30dd1594f96c4cd44b2\msvc-setup.bat" x86 >nul
+ cl "C:\vcpkg\buildtrees\boost-fiber\src\ost-1.78.0-f4b12aa4d2.clean\config\checks\test_case.cpp" -c -Fo"C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\config\checks\7dbc51e91fe9e87de6b8b7cecdb66cf8\cxx11_rvalue_references.obj"     -TP /wd4675 /EHs /GR /Zc:throwingNew -nologo -DWIN32 -D_WINDOWS -W3 -utf-8 -GR -EHsc -MP -MD -O2 -Oi -Gy -DNDEBUG -Z7 /O2 /Z7 /Ob2 /W3 /MD /Zc:forScope /Zc:wchar_t /Zc:inline /Gw -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_RVALUE_REFERENCES "-I..\include" "-IC:\vcpkg\installed\x86-windows\include" 
+
+test_case.cpp
+compile-c-c++ C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\config\checks\7dbc51e91fe9e87de6b8b7cecdb66cf8\cxx11_template_aliases.obj
+
+    call "C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\standalone\msvc\fabbfd46c2a4e30dd1594f96c4cd44b2\msvc-setup.bat" x86 >nul
+ cl "C:\vcpkg\buildtrees\boost-fiber\src\ost-1.78.0-f4b12aa4d2.clean\config\checks\test_case.cpp" -c -Fo"C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\config\checks\7dbc51e91fe9e87de6b8b7cecdb66cf8\cxx11_template_aliases.obj"     -TP /wd4675 /EHs /GR /Zc:throwingNew -nologo -DWIN32 -D_WINDOWS -W3 -utf-8 -GR -EHsc -MP -MD -O2 -Oi -Gy -DNDEBUG -Z7 /O2 /Z7 /Ob2 /W3 /MD /Zc:forScope /Zc:wchar_t /Zc:inline /Gw -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_TEMPLATE_ALIASES "-I..\include" "-IC:\vcpkg\installed\x86-windows\include" 
+
+test_case.cpp
+compile-c-c++ C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\config\checks\7dbc51e91fe9e87de6b8b7cecdb66cf8\cxx11_thread_local.obj
+
+    call "C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\standalone\msvc\fabbfd46c2a4e30dd1594f96c4cd44b2\msvc-setup.bat" x86 >nul
+ cl "C:\vcpkg\buildtrees\boost-fiber\src\ost-1.78.0-f4b12aa4d2.clean\config\checks\test_case.cpp" -c -Fo"C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\config\checks\7dbc51e91fe9e87de6b8b7cecdb66cf8\cxx11_thread_local.obj"     -TP /wd4675 /EHs /GR /Zc:throwingNew -nologo -DWIN32 -D_WINDOWS -W3 -utf-8 -GR -EHsc -MP -MD -O2 -Oi -Gy -DNDEBUG -Z7 /O2 /Z7 /Ob2 /W3 /MD /Zc:forScope /Zc:wchar_t /Zc:inline /Gw -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_THREAD_LOCAL "-I..\include" "-IC:\vcpkg\installed\x86-windows\include" 
+
+test_case.cpp
+compile-c-c++ C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\config\checks\7dbc51e91fe9e87de6b8b7cecdb66cf8\cxx11_variadic_templates.obj
+
+    call "C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\standalone\msvc\fabbfd46c2a4e30dd1594f96c4cd44b2\msvc-setup.bat" x86 >nul
+ cl "C:\vcpkg\buildtrees\boost-fiber\src\ost-1.78.0-f4b12aa4d2.clean\config\checks\test_case.cpp" -c -Fo"C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\config\checks\7dbc51e91fe9e87de6b8b7cecdb66cf8\cxx11_variadic_templates.obj"     -TP /wd4675 /EHs /GR /Zc:throwingNew -nologo -DWIN32 -D_WINDOWS -W3 -utf-8 -GR -EHsc -MP -MD -O2 -Oi -Gy -DNDEBUG -Z7 /O2 /Z7 /Ob2 /W3 /MD /Zc:forScope /Zc:wchar_t /Zc:inline /Gw -DBOOST_ALL_NO_LIB=1 -DNDEBUG -DTEST_BOOST_NO_CXX11_VARIADIC_TEMPLATES "-I..\include" "-IC:\vcpkg\installed\x86-windows\include" 
+
+test_case.cpp
+
+file C:\Users\pulpo\AppData\Local\Temp\jam3c1c1c07.000
+# Automatically generated by B2.
+# Do not edit.
+
+module config-cache {
+  set "cxx11_auto_declarations-<address-model>32-<architecture>x86-<debug-symbols>on-<threadapi>win32-<threading>multi-<toolset-msvc:version>143-<toolset>msvc-<variant>release" : "true" ;
+  set "cxx11_constexpr-<address-model>32-<architecture>x86-<debug-symbols>on-<threadapi>win32-<threading>multi-<toolset-msvc:version>143-<toolset>msvc-<variant>release" : "true" ;
+  set "cxx11_defaulted_functions-<address-model>32-<architecture>x86-<debug-symbols>on-<threadapi>win32-<threading>multi-<toolset-msvc:version>143-<toolset>msvc-<variant>release" : "true" ;
+  set "cxx11_final-<address-model>32-<architecture>x86-<debug-symbols>on-<threadapi>win32-<threading>multi-<toolset-msvc:version>143-<toolset>msvc-<variant>release" : "true" ;
+  set "cxx11_hdr_mutex-<address-model>32-<architecture>x86-<debug-symbols>on-<threadapi>win32-<threading>multi-<toolset-msvc:version>143-<toolset>msvc-<variant>release" : "true" ;
+  set "cxx11_hdr_tuple-<address-model>32-<architecture>x86-<debug-symbols>on-<threadapi>win32-<threading>multi-<toolset-msvc:version>143-<toolset>msvc-<variant>release" : "true" ;
+  set "cxx11_lambdas-<address-model>32-<architecture>x86-<debug-symbols>on-<threadapi>win32-<threading>multi-<toolset-msvc:version>143-<toolset>msvc-<variant>release" : "true" ;
+  set "cxx11_noexcept-<address-model>32-<architecture>x86-<debug-symbols>on-<threadapi>win32-<threading>multi-<toolset-msvc:version>143-<toolset>msvc-<variant>release" : "true" ;
+  set "cxx11_nullptr-<address-model>32-<architecture>x86-<debug-symbols>on-<threadapi>win32-<threading>multi-<toolset-msvc:version>143-<toolset>msvc-<variant>release" : "true" ;
+  set "cxx11_rvalue_references-<address-model>32-<architecture>x86-<debug-symbols>on-<threadapi>win32-<threading>multi-<toolset-msvc:version>143-<toolset>msvc-<variant>release" : "true" ;
+  set "cxx11_template_aliases-<address-model>32-<architecture>x86-<debug-symbols>on-<threadapi>win32-<threading>multi-<toolset-msvc:version>143-<toolset>msvc-<variant>release" : "true" ;
+  set "cxx11_thread_local-<address-model>32-<architecture>x86-<debug-symbols>on-<threadapi>win32-<threading>multi-<toolset-msvc:version>143-<toolset>msvc-<variant>release" : "true" ;
+  set "cxx11_variadic_templates-<address-model>32-<architecture>x86-<debug-symbols>on-<threadapi>win32-<threading>multi-<toolset-msvc:version>143-<toolset>msvc-<variant>release" : "true" ;
+  set "cxx11_auto_declarations-<address-model>32-<architecture>x86-<build>no-<debug-symbols>on-<threadapi>win32-<threading>multi-<toolset-msvc:version>143-<toolset>msvc-<variant>release" : "true" ;
+  set "cxx11_constexpr-<address-model>32-<architecture>x86-<build>no-<debug-symbols>on-<threadapi>win32-<threading>multi-<toolset-msvc:version>143-<toolset>msvc-<variant>release" : "true" ;
+  set "cxx11_defaulted_functions-<address-model>32-<architecture>x86-<build>no-<debug-symbols>on-<threadapi>win32-<threading>multi-<toolset-msvc:version>143-<toolset>msvc-<variant>release" : "true" ;
+  set "cxx11_final-<address-model>32-<architecture>x86-<build>no-<debug-symbols>on-<threadapi>win32-<threading>multi-<toolset-msvc:version>143-<toolset>msvc-<variant>release" : "true" ;
+  set "cxx11_hdr_mutex-<address-model>32-<architecture>x86-<build>no-<debug-symbols>on-<threadapi>win32-<threading>multi-<toolset-msvc:version>143-<toolset>msvc-<variant>release" : "true" ;
+  set "cxx11_hdr_tuple-<address-model>32-<architecture>x86-<build>no-<debug-symbols>on-<threadapi>win32-<threading>multi-<toolset-msvc:version>143-<toolset>msvc-<variant>release" : "true" ;
+  set "cxx11_lambdas-<address-model>32-<architecture>x86-<build>no-<debug-symbols>on-<threadapi>win32-<threading>multi-<toolset-msvc:version>143-<toolset>msvc-<variant>release" : "true" ;
+  set "cxx11_noexcept-<address-model>32-<architecture>x86-<build>no-<debug-symbols>on-<threadapi>win32-<threading>multi-<toolset-msvc:version>143-<toolset>msvc-<variant>release" : "true" ;
+  set "cxx11_nullptr-<address-model>32-<architecture>x86-<build>no-<debug-symbols>on-<threadapi>win32-<threading>multi-<toolset-msvc:version>143-<toolset>msvc-<variant>release" : "true" ;
+  set "cxx11_rvalue_references-<address-model>32-<architecture>x86-<build>no-<debug-symbols>on-<threadapi>win32-<threading>multi-<toolset-msvc:version>143-<toolset>msvc-<variant>release" : "true" ;
+  set "cxx11_template_aliases-<address-model>32-<architecture>x86-<build>no-<debug-symbols>on-<threadapi>win32-<threading>multi-<toolset-msvc:version>143-<toolset>msvc-<variant>release" : "true" ;
+  set "cxx11_thread_local-<address-model>32-<architecture>x86-<build>no-<debug-symbols>on-<threadapi>win32-<threading>multi-<toolset-msvc:version>143-<toolset>msvc-<variant>release" : "true" ;
+  set "cxx11_variadic_templates-<address-model>32-<architecture>x86-<build>no-<debug-symbols>on-<threadapi>win32-<threading>multi-<toolset-msvc:version>143-<toolset>msvc-<variant>release" : "true" ;
+}
+
+config-cache.write C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\project-cache.jam
+
+    type "C:\Users\pulpo\AppData\Local\Temp\jam3c1c1c07.000" > "C:\vcpkg\buildtrees\boost-fiber\x86-windows-rel\boost\project-cache.jam"
+

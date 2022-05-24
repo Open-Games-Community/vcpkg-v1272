@@ -1,0 +1,2 @@
+C:/vcpkg/packages/boost-fiber_x86-windows/debug/lib/boost_fiber-vc143-mt-gd-x32-1_78.lib
+C:/vcpkg/packages/boost-fiber_x86-windows/debug/bin/boost_fiber-vc143-mt-gd-x32-1_78.dll
