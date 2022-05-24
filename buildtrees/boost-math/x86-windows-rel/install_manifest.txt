@@ -1,0 +1,12 @@
+C:/vcpkg/packages/boost-math_x86-windows/lib/boost_math_c99-vc143-mt-x32-1_78.lib
+C:/vcpkg/packages/boost-math_x86-windows/lib/boost_math_c99f-vc143-mt-x32-1_78.lib
+C:/vcpkg/packages/boost-math_x86-windows/lib/boost_math_c99l-vc143-mt-x32-1_78.lib
+C:/vcpkg/packages/boost-math_x86-windows/lib/boost_math_tr1-vc143-mt-x32-1_78.lib
+C:/vcpkg/packages/boost-math_x86-windows/lib/boost_math_tr1f-vc143-mt-x32-1_78.lib
+C:/vcpkg/packages/boost-math_x86-windows/lib/boost_math_tr1l-vc143-mt-x32-1_78.lib
+C:/vcpkg/packages/boost-math_x86-windows/bin/boost_math_c99-vc143-mt-x32-1_78.dll
+C:/vcpkg/packages/boost-math_x86-windows/bin/boost_math_c99f-vc143-mt-x32-1_78.dll
+C:/vcpkg/packages/boost-math_x86-windows/bin/boost_math_c99l-vc143-mt-x32-1_78.dll
+C:/vcpkg/packages/boost-math_x86-windows/bin/boost_math_tr1-vc143-mt-x32-1_78.dll
+C:/vcpkg/packages/boost-math_x86-windows/bin/boost_math_tr1f-vc143-mt-x32-1_78.dll
+C:/vcpkg/packages/boost-math_x86-windows/bin/boost_math_tr1l-vc143-mt-x32-1_78.dll
